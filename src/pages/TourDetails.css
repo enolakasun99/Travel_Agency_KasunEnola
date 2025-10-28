@@ -1,0 +1,72 @@
+.btn-back {
+  background: var(--muted);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.tour-title-large {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.tour-image-main-wrapper {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.tour-image-main {
+  width: 100%;
+  height: auto;
+}
+
+.tour-meta-pills {
+  margin-bottom: 20px;
+}
+
+.price-display {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.tour-long-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 40px;
+}
+
+.tour-benefits h2,
+.tour-dates h2 {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.benefits-list {
+  list-style: "✅ "; 
+  padding-left: 20px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.sticky-cta-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  text-align: center;
+  z-index: 900;
+}
+
+.btn-cta-reserve {
+  padding: 12px 30px;
+  font-size: 18px;
+  width: 90%;
+  max-width: 400px;
+}
